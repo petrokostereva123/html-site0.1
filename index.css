@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+
+h1, h2, p, section, header, main, footer {
+    margin: 0;
+    padding: 0;
+} 
+ul, ol {
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav {
+    font-family: 'Patua One', cursive;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: #0c59cf;
+    font-size: 2rem;
+    margin-top: -8px;
+    margin-right: -8px;
+    max-width: 995px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    padding-top: 0;
+     padding-bottom: 0;
+}
+
+@media(min-width: 800px){
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/*header nav {
+    margin: auto;
+    min-width: 320px;
+    max-width: 980px;
+    max-height: 100px;
+}*/
+
+
+/*header nav .topnav {
+    background-color: #0c59cf; 
+    margin-left: -8px;
+}
+
+header nav .topnav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 8px;
+}*/
+
+
+header section {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    margin-top: 56px;
+    min-height: 400px;
+    max-width: 995px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+header section a {
+    font-family: 'Patua One', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: auto;
+    line-height: 1px;
+}
+
+header section span {
+    color: #0c59cf;
+}
+
